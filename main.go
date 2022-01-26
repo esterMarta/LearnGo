@@ -3,9 +3,13 @@ package main
 import (
 	"fmt"
 
-	"estermarta.com/go-learn-1/mascot"
+	variables "estermarta.com/go-learn-1/06-variables"
 )
 
 func main() {
-	fmt.Println(mascot.BestMascot())
+	//Write your First Go Program
+	fmt.Println("Hello Gopher!")
+
+	variables.ZeroValues()
+
 }
